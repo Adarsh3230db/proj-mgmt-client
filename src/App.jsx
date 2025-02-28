@@ -5,6 +5,7 @@ import './App.css'
 import { Route, Routes } from 'react-router-dom'
 import Login from './Pages/Login'
 import Reg from './Pages/Reg'
+import AdminDashboard from './Pages/dashboards/AdminDashboard'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path='/login' element={<Login/>}/>
         <Route path='/register' element={<Reg/>}/>
+        <Route path='/admin-dashboard' element={<AdminDashboard/>}/>
       </Routes>
     </>
   )
